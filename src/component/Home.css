@@ -1,0 +1,85 @@
+/* body{
+  overflow-x: hidden;
+} */
+
+ 
+.back{
+  background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('../images/sea.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.slider{
+  width: 90%;
+  /* max-width: 1000px; */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+
+}
+.im{
+  width: 200px;
+  /* max-width: 600px; */
+  height: auto;
+  
+
+}
+/* @media (max-width:768px)
+{
+  .slider{
+    width:100px;
+    padding:5px;
+  }
+  im{
+    max-width: 100%;
+    
+  }
+} */
+
+
+
+.slider .co{
+  display: flex;
+  width: calc(100px * 18);
+  animation: slide 20s linear infinite;
+}
+@keyframes slide{
+  0%{
+    transform: translateX(0);
+  }
+  0%{
+    transform: translateX(calc(100px));
+  }
+}
+.im:hover{
+  transform: translateZ(5px);
+  transition: 1ms;
+}
+.slider .ro{
+  perspective: 100px;
+  padding: 15px;
+
+
+}
+
+.treck{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('../images/treck.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 80vh;
+   border-radius: 20px;
+   
+}
+
+@media (max-width: 768px){
+  .treck{
+    width: 310px;
+    margin-left: 4px;
+  }
+}
+
