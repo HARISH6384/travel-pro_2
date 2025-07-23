@@ -48,20 +48,20 @@ const Footer = () => {
     <div className=' bg-blue-950 mt-20 text-white py-10 px-6'>
     <div class='grid grid-cols-1   md:grid-cols-2 lg:grid-cols-4 gap-10 ' >
     <div className='flex items-center space-x-4 '>
-      <img src={flight} className='w-10   h-10 animate-ping'/>
+      <img src={flight} className='w-10   h-10 animate-ping' alt='flight'/>
         <h1 class='  font-bold text-4xl'> <Link to='/'>Travel Go </Link>  </h1>
     </div>
     
     <div>
-       <span > <h1 class=' font-bold  flex text-lg'> <img src={p1} class='w-10  h-10'/> <Link to='/'>Call Agent </Link></h1></span>
+       <span > <h1 class=' font-bold  flex text-lg'> <img src={p1} alt='p1' class='w-10  h-10'/> <Link to='/'>Call Agent </Link></h1></span>
         <h1 class='mt-1'><Link to='/'>0974090945094</Link></h1>
     </div>
     <div>
-     <span ><h1 class=' font-bold  flex text-lg'> <img src={p2} class='w-10 h-10'/> <Link to='/'>Send Email</Link></h1></span>     
+     <span ><h1 class=' font-bold  flex text-lg'> <img src={p2} alt='p2' class='w-10 h-10'/> <Link to='/'>Send Email</Link></h1></span>     
         <h1 class='pt-1'> <Link to='/'>hharish@gmail.com</Link></h1>
     </div>
     <div>
-      <span class='flex'><h1 class=' font-bold flex text-lg'><img src={p3} class='w-10 h-10'/>  <Link to='/'>Opening Time</Link></h1></span>  
+      <span class='flex'><h1 class=' font-bold flex text-lg'><img src={p3} alt='p3' class='w-10 h-10'/>  <Link to='/'>Opening Time</Link></h1></span>  
         <h1 class='pt-1'> <Link to='/'>Mon-Fri 8am-9pm</Link></h1>
     </div>
     </div>

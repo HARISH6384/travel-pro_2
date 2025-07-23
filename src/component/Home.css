@@ -11,23 +11,23 @@
   height: 70vh;
 }
 
-.slider{
-  width: 90%;
+/* .slider{
+  
   /* max-width: 1000px; */
-  height: auto;
-  display: flex;
+  
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   /* padding: 10px; */
 
-}
-.im{
+
+/* .im{
   width: 200px;
   /* max-width: 600px; */
-  height: auto;
+  /* height: auto; */
   
 
-}
+ 
 /* @media (max-width:768px)
 {
   .slider{
@@ -42,29 +42,29 @@
 
 
 
-.slider .co{
-  display: flex;
-  width: calc(100px * 18);
+/* .slider {
+
+  
   animation: slide 20s linear infinite;
 }
 @keyframes slide{
-  0%{
+  /* 0%{
     transform: translateX(0);
   }
   0%{
-    transform: translateX(calc(100px));
-  }
-}
-.im:hover{
-  transform: translateZ(5px);
-  transition: 1ms;
-}
-.slider .ro{
+    transform: translateX(calc(10px));
+  } */
+
+/* .im:hover{
+  /* transform: translateZ(5px); */
+  /* transition: 2ms; */
+
+/* .slider {
   perspective: 100px;
-  padding: 15px;
 
 
-}
+
+} */ 
 
 .treck{
     background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url('../images/treck.jpg');
@@ -78,8 +78,9 @@
 
 @media (max-width: 768px){
   .treck{
-    width: 310px;
-    margin-left: 4px;
+    width: 330px;
+    height: 500px;
+    
   }
 }
 

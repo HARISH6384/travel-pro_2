@@ -9,15 +9,15 @@ import photo4 from '../images/trophy_3134162.png'
 const Ourpackages = () => {
   return (
     <>
-    <div class='text-center px-2  sm:px-4 sm:mt-5 mt-5'>
+    <div class='text-center   sm:px-4 sm:mt-5 mt-5'>
         <h1 class='text-blue-400 text-xl sm:text-2xl font-bold'>special offer</h1>
         <h1 class='text-black font-bold text-2xl sm:text-2xl'>Offers to inspire you</h1>
     </div>
-    <div class='flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0  sm:mt-10'>
+    <div class='flex flex-col md:flex-row items-center justify-center gap-8 md:gap-24  sm:mt-10'>
     <div className='p1'>
       <div class='text-justify w-full px-3 py-4'>
             <div>
-            <h1 class='  mx-4 bg-gray-400 my-2 text-white sm:text-base rounded p-1  sm:w-52Q' >Valid on 20jan- 27jan 2025</h1> 
+            <h1 class='  mx-4 bg-gray-400 my-2 text-white sm:text-base rounded p-1  sm:w-52' >Valid on 20jan- 27jan 2025</h1> 
             </div>
         <h1 class='sm:text-2xl text-xl mt-14 text-white font-bold'>Exclusive Hotel</h1>
         <h1 class='sm:text-2xl text-xl text-white font-bold'>Deals Just for you</h1>
@@ -62,19 +62,19 @@ const Ourpackages = () => {
 
 
     
-          <div class='container-fulid mx-auto px-4 my-20 '>
+          <div class='container-fulid  md:px-7 px-2 my-20 '>
             <div   className='treck' >
 
               <div class=' md:w-96 w-52   md:mx-[800px] sm:max-mx-[800px] md:py-32 mx-20 py-8 items-center text-center '> 
-                <div class='grid grid-cols-1 md:grid-cols-2  space-y-10 text-black font-bold   rounded-3xl opacity-65  bg-slate-50 items-center '>
+                <div class='grid grid-cols-1 md:grid-cols-2 space-y-4 md:space-y-10 text-black font-bold   rounded-3xl opacity-65  bg-slate-50 items-center '>
                 <div  className='space-y-1' >
-                   <img className='w-10 h-10  md:mx-20 mx-44 animate-bounce' src={photo1}/>
+                   <img alt='photo1' className='w-10 h-10  md:mx-20 mx-20 animate-bounce' src={photo1}/>
                  <h1 >30k</h1>
                  
                  <h1>tour succes</h1>
                  </div>
                  <div className='space-y-1'>
-                  <img className='w-10 h-10  md:mx-20 mx-44 animate-bounce' src={photo2}/>
+                  <img className='w-10 h-10  md:mx-20 mx-20 animate-bounce' alt='photo2' src={photo2}/>
                   <h1>5480</h1>
                   <h1>Happy Traveler</h1>
                    
@@ -83,12 +83,12 @@ const Ourpackages = () => {
                 
                  
                  <div className='space-y-1'>
-                   <img className='w-10 h-10  md:mx-20 mx-44 animate-bounce' src={photo3}/>
+                   <img className='w-10 h-10  md:mx-20 mx-20 animate-bounce' alt='photo3' src={photo3}/>
                   <h1>6,562</h1>
                   <h1>Awards winning</h1>
                  </div>
                  <div className='space-y-1'>
-                   <img className='w-10 h-10  md:mx-20 mx-44 animate-bounce' src={photo4}/>
+                   <img className='w-10 h-10  md:mx-20 mx-20 animate-bounce' alt='photo4' src={photo4}/>
                   <h1>25</h1>
                   <h1>our experience</h1>
                  </div>
