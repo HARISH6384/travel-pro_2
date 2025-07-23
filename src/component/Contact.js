@@ -15,22 +15,7 @@ import './Our.css'
 
 const Contact = () => {
 
-  const[name,setName]=useState('');
-  const[lastname,setLname]=useState('');
-  const[email,setEmail]=useState('');
-  const[subject,setSubject]=useState('');
-  const[message,setMessage]=useState('');
-  const handleSumbit=(e)=>{
-    e.preventDefault();
-  }
-    
-    function change(){
-      alert(`${name}.${lastname}`)
-     
-      alert(`${email}`)
-      alert(`${subject}`)
-      alert(`${message}`)
-    }
+ 
   
   return (
     <> 

@@ -25,13 +25,13 @@ const About = () => {
           
           <img src={photo9} class='md:w-[500px] w-[350px] md:mx-0 mx-3 h-auto    '/>
           <div class=' text-justify space-y-6  '> 
-            <h1 class='md:text-3xl text-2xl font-serif flex items-center gap-2 text-blue-700'><span class='mx-5 w-8 h-8 '><img className='w-6 h-6' src={photo22}/> </span> our service</h1>
+            <h1 class='md:text-3xl text-2xl font-serif flex items-center gap-2 text-blue-700'><span class='mx-5 w-8 h-8 '><img className='w-6 h-6' alt='photo22' src={photo22}/> </span> our service</h1>
             <p class='md:mx-20 md:text-justif md:text-lg text-sm mx-20 font-bold'>At Compass, we don’t just book trips - we craft unforgettable journeys.</p>
-            <h1 class='md:text-3xl text-2xl  gap-2 md:mt-10 font-serif flex items-center text-blue-700'> <span class='mx-5' ><img src={photo23} /> </span> Flight & Travel Bookings</h1>
+            <h1 class='md:text-3xl text-2xl  gap-2 md:mt-10 font-serif flex items-center text-blue-700'> <span class='mx-5' ><img src={photo23} alt='photo23' /> </span> Flight & Travel Bookings</h1>
             <p class='md:mx-20 font-bold md:text-lg md:text-justify mx-20 text-sm '> We handle all your travel arrangements — flights, trains, cruises, and more.</p>
-            <h1 class='md:text-3xl   items-center  text-2xl md:mt-10 gap-2 font-serif flex text-blue-700'> <span class='mx-5'><img src={photo24}/> </span> Group Tours</h1>
+            <h1 class='md:text-3xl   items-center  text-2xl md:mt-10 gap-2 font-serif flex text-blue-700'> <span class='mx-5'><img src={photo24} alt='photo24'/> </span> Group Tours</h1>
             <p class='md:text-justify md:text-lg md:mx-20 text-sm mx-20 font-bold'>Whether it's a destination wedding, corporate retreat, or school trip</p>
-            <h1 class='md:text-3xl mt-10 gap-2 text-2xl item-center font-serif flex text-blue-700'> <span class='mx-5'><img src={photo25}/> </span> 24/7 Travel support</h1>
+            <h1 class='md:text-3xl mt-10 gap-2 text-2xl item-center font-serif flex text-blue-700'> <span class='mx-5'><img src={photo25} alt='photo25'/> </span> 24/7 Travel support</h1>
              <p class='md:text-justify md:mx-20 md:text-lg text-sm mx-20 font-bold'> Round-the-clock customer service to assist you before, during, and after your trip.</p>
           </div>
         </div>
