@@ -23,7 +23,7 @@ const About = () => {
           </div>
         <div class=' flex  flex-col md:flex-row  justify-around gap-8 mt-10'>
           
-          <img src={photo9} class='md:w-[500px] w-[350px] md:mx-0 mx-3 h-auto    '/>
+          <img src={photo9} alt='photo9' class='md:w-[500px] w-[350px] md:mx-0 mx-3 h-auto    '/>
           <div class=' text-justify space-y-6  '> 
             <h1 class='md:text-3xl text-2xl font-serif flex items-center gap-2 text-blue-700'><span class='mx-5 w-8 h-8 '><img className='w-6 h-6' alt='photo22' src={photo22}/> </span> our service</h1>
             <p class='md:mx-20 md:text-justif md:text-lg text-sm mx-20 font-bold'>At Compass, we don’t just book trips - we craft unforgettable journeys.</p>

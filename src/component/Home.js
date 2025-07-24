@@ -1,7 +1,4 @@
-import React from 'react'
-import photo from '../images/1.png'
-import photo2 from '../images/2.png'
-import photo3 from '../images/3.png'
+
 import photo4 from '../images/Rec1.png'
 import photo5 from '../images/Rec2.png'
 import photo6 from '../images/Rec3.png'

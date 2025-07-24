@@ -7,10 +7,6 @@ import './Our.css'
  
 
 
-// import  './Contact.css'
-// import logo from '../image/logo-1162901_1280.png'
-// import { click } from '@testing-library/user-event/dist/click';
-
  
 
 const Contact = () => {
