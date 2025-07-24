@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+ 
 import './Our.css'
  import p1 from '../images/map.png'
   import p2 from '../images/m2.png'
