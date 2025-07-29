@@ -9,6 +9,7 @@ import photo25 from '../images/i4.png'
 import photo9 from '../images/why.png'
 import photo10 from '../images/pac1.png'
 import photo11 from '../images/pac2.png'
+import './About.css'
 
 
 const About = () => {
@@ -40,27 +41,43 @@ const About = () => {
              <h1 class='font-bold text-3xl text-blue-400  mb-10 text-center'>TESTIMONIALS</h1>
           </div>
           <div class=' container-fulid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6    text-justify'>
-            <div class='border shadow-2xl  py-6 px-5   rounded-xl '>
-            <p class='items-center mb-4 gap-2' > <span class='flex gap-2'><img src={photo19} alt='photo19' class='w-10 h-10 mb-5  rounded-full '
+           <div className='card'>
+            <div class=' shawdow-2xl   rounded-xl '>
+            <p className='small-desc md:line-clamp-none line-clamp-6' > <span class='flex gap-2'><img src={photo19} alt='photo19' class='w-10 h-10 mb-5  rounded-full '
              /> Vijay </span>"Compass made my dream beach vacation a reality! From the moment I booked my trip to the moment my toes hit the sand, everything was smooth and stress-free. The resort was exactly as promised—breath taking views, crystal-clear water, and peaceful vibes. I loved how easy the whole experience was. Already planning my next tropical escape!" </p>
             <p class='mt-4 '>⭐⭐⭐</p>
+            <div className='go-corner'>
+              <div className='go-arrow'></div>
+            </div>
+            </div >
+
             </div> 
-           <div class='border shadow-2xl py-6  px-5 rounded-xl  text-justify'>
-            <p className='item-center  gap-2 mb-4' ><span class='flex gap-2 ' ><img src={photo20} alt='photo20'  class='w-10 h-10 mb-5 rounded-full '/>Jessica
+            <div className='card shawdow-2xl  '>
+           <div class='rounded-xl '>
+            <p className=' small-desc md:line-clamp-none line-clamp-6' ><span class='flex gap-2 ' ><img src={photo20} alt='photo20'  class='w-10 h-10 mb-5 rounded-full '/>Jessica
             </span>you’re into thrilling adventures like me, Compass is the perfect travel partner. I booked a trekking package to Himachal and it was incredible—well-organized, safe, and packed with adrenaline! The guides were super knowledgeable, and the views from the top were worth every step. Compass took care of the logistics, so I could focus on the experience!"</p>
            <p class='mt-4 '>⭐⭐⭐⭐</p>
+            <div className='go-corner'>
+              <div className='go-arrow'></div>
+            </div>
            </div>
-           <div class='border shadow-2xl py-6 px-5  rounded-xl'>
-            <p className='items-center mb-2 gap-2 '><span class='flex gap-2'><img src={photo21} alt='photo21' class='w-10 h-10 mb-5  rounded-full '/>Joseph
+           </div>
+            <div className='card shawdow-2xl  '>
+           <div class='   rounded-xl'>
+            <p className='small-desc items-center md:line-clamp-none line-clamp-6 mb-2 gap-2 '><span class='flex gap-2'><img src={photo21} alt='photo21' class='w-10 h-10 mb-5  rounded-full '/>Joseph
             </span>"Traveling with kids can be stressful, but Compass made it a breeze! We booked our family holiday to Singapore, and every detail was thoughtfully planned—from kid-friendly hotels to fun-packed attractions like Universal Studios and the Night Safari. The itinerary was balanced and flexible, which made the trip enjoyable for all of us.  </p>
-          <p class='mt-4 '>⭐⭐</p>
+          <p class=' mt-4 '>⭐⭐</p>
+           <div className='go-corner'>
+              <div className='go-arrow'></div>
+            </div>
+          </div>
           </div>
           </div>
 
     </div>
 
    
-      <div class='flex items-center  gap-8 flex-col-reverse md:flex-row justify-around mt-32' >
+      <div class=' flex items-center  gap-8 flex-col-reverse md:flex-row justify-around mt-32' >
         
         <p class='text-justify max-w-xl md:line-clamp-none w-[350px]  md:w-[550px]  line-clamp-6 text-xl tracking-widest font-serif'>At Compass, we believe that true travel is found in the finer details—the charm of your stay, the rhythm of your journey, and the people who shape your experience. With deep local expertise and a global network, we aim to craft travel moments that feel effortless, immersive, and truly exceptional.
 Every itinerary is thoughtfully designed to reveal the soul of each destination—from hidden treasures and cultural insights to smooth transitions and personalized touches. We don’t just plan trips—we create journeys that stay with you long after you return. </p>

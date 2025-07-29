@@ -8,8 +8,8 @@ const Nav = () => {
 
     
   return (
-    <div >
-        <nav className='items-center  justify-between'>
+    <div  >
+        <nav className='items-center   justify-between'>
           <div className='flex   '>
           <img src={flight} alt='f' className='w-10   h-10 animate-ping'/>
             <h1 class='text-blue-600 font-bold text-2xl'>TRAVEL</h1>

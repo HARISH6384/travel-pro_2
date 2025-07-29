@@ -4,6 +4,7 @@ import './Our.css'
   import p2 from '../images/m2.png'
    import p3 from '../images/m3.png'
     import p4 from '../images/m4.png'
+    import p5 from '../images/contact.jpg'
  
 
 
@@ -15,7 +16,7 @@ const Contact = () => {
   
   return (
     <> 
-     <div>
+     {/* <div>
         <div>
 
         </div>
@@ -44,7 +45,40 @@ const Contact = () => {
             </form>
             </div>
         </div>
-     </div>
+     </div> */}
+      
+         <div className='md:ms-48 ms-3  '> 
+          <div className=' mt-10 border bg-white md:ms-40 md:w-[1000px] rounded-2xl md:flex w-[350px] h-80 md:h-96'>
+
+              <img src={p5} className='w-[450px] sm:block  hidden rounded'/>
+
+           <div>
+            <form className=' ms-5 mt-5  '  >
+              <div>
+                <h1 class='font-bold text-3xl text-blue-500'>Get In Touch</h1>
+                <h1 class='font-bold'>24/7 We Will Answer For Your Question</h1>
+                </div>
+                <div className='gap-2 mt-5 space-y-3' >
+                <input class='border rounded-md border-transparent outline-blue-700 md:px-4 md:w-60 bg-gray-300 h-10 md:h-12 ' type='name' placeholder='First Name'/> <input type='name' class='border rounded-md border-transparent outline-blue-700 md:w-60 bg-gray-300 md:px-4 px-2  h-10 md:h-12' placeholder='Last Name'/>
+                <div className='md:gap-2 space-y-5'>
+                <input  class='border rounded-md border-transparent bg-gray-300   outline-blue-700 px-2  md:px-4 md:py-3 focus:outline-none  md:h-12 h-10 md:w-full' type='email' placeholder='Email'/>
+                
+               
+               <input  class='border rounded-md border-transparent bg-gray-300  outline-blue-700 px-2  md:px-0 md:py-3 md:h-12 md:w-full h-10' type='number' placeholder='Phone no'/>
+               <button  class=' bg-blue-500 text-white ms-5 md:ms-0 py-1 font-bold px-3 rounded-md hover:bg-blue-600 transition '>Sumbit</button>
+              </div>
+                 
+                </div>
+            </form>
+           </div>
+</div>
+          </div>
+
+
+
+
+
+
      <div class='mx-5  mt-5'>
         <button class='border py-3 px-3 bg-blue-950 text-white rounded-2xl'>Visit us Anytime</button>
         <h1 className='font-bold text-blue-400 text-3xl mt-3'>Our Office</h1>
