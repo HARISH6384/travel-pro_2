@@ -47,10 +47,10 @@ const Contact = () => {
         </div>
      </div> */}
       
-         <div className='md:ms-48 ms-3  '> 
-          <div className=' mt-10 border bg-white md:ms-40 md:w-[1000px] rounded-2xl md:flex w-[350px] h-80 md:h-96'>
+         <div className=' ms-3  '> 
+          <div className=' mt-10 border bg-white md:ms-40 md:w-[1000px] rounded-2xl md:flex items-center w-[350px] h-80 md:h-96'>
 
-              <img src={p5} className='w-[450px] sm:block  hidden rounded ' alt='contact'/>
+              <img src={p5} className='w-[440px] h-[380px] sm:block  hidden rounded ' alt='contact'/>
 
            <div>
             <form className=' ms-5 mt-5  '  >
