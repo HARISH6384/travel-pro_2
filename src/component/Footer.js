@@ -53,11 +53,11 @@ const Footer = () => {
     </div>
     
     <div>
-        <span class=' font-bold  flex text-lg'> <img src={p1} alt='p1' class='w-10  h-10'/> <Link to='/'>Call Agent </Link></span>
+        <h1 class=' font-bold  flex text-lg'> <img src={p1} alt='p1' class='w-10  h-10'  /> <Link to='/'>Call Agent </Link></h1>
         <span class='mt-1'><Link to='/'>0974090945094</Link></span>
     </div>
     <div>
-     <span class=' font-bold  flex text-lg'> <img src={p2} alt='p2' class='w-10 h-10'/> <Link to='/'>Send Email</Link></span>     
+     <span class=' font-bold  flex text-lg'> <img src={p2} alt='p2' class='w-10 h-10' /> <Link to='/'>Send Email</Link></span>     
         <span class='pt-1'> <Link to='/'>hharish@gmail.com</Link></span>
     </div>
     <div>
