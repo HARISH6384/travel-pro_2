@@ -53,15 +53,15 @@ const Footer = () => {
     </div>
     
     <div>
-        <h1 class=' font-bold  flex text-lg'> <img src={p1} alt='p1' class='w-10  h-10'  /> <Link to='/'>Call Agent </Link></h1>
-        <span class='mt-1'><Link to='/'>0974090945094</Link></span>
+        <h1 class=' font-bold  flex text-lg'>   <Link to='/'>Call Agent </Link></h1>
+        <span class='mt-1'><Link to='/'>9740909401</Link></span>
     </div>
     <div>
-     <span class=' font-bold  flex text-lg'> <img src={p2} alt='p2' class='w-10 h-10' /> <Link to='/'>Send Email</Link></span>     
+     <span class=' font-bold  flex text-lg'>   <Link to='/'>Send Email</Link></span>     
         <span class='pt-1'> <Link to='/'>hharish@gmail.com</Link></span>
     </div>
     <div>
-      <span class='flex'><span class=' font-bold flex text-lg'><img src={p3} alt='p3' class='w-10 h-10'/>  <Link to='/'>Opening Time</Link></span></span>
+      <span class='flex'><span class=' font-bold flex text-lg'>   <Link to='/'>Opening Time</Link></span></span>
         <span class='pt-1'> <Link to='/'>Mon-Fri 8am-9pm</Link></span>
     </div>
     </div>
@@ -123,7 +123,7 @@ const Footer = () => {
     </div>
     <hr></hr>
     <div>
-      <span class='text-white  bg-blue-950'>Copyrights @ 2025 skillcraft All Rights Reserved </span>
+      <span class='text-black items-center ml-[500px] '>Copyrights @ 2025 skillcraft All Rights Reserved </span>
     </div>
     
   

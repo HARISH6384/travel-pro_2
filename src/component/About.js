@@ -16,26 +16,56 @@ const About = () => {
   return (
     <>
     <div>
+    <div className="px-5 mt-16">
+        <h1 className="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300">
+          WHY CHOOSE US?
+        </h1>
+      </div>
 
-
-       <div class='px-5 mt-10  '>
-            <h1 class='md:text-5xl text-3xl   font-bold text-blue-400'>WHY CHOOSE US ?</h1>
-            <p></p>
+      <div className="flex flex-col md:flex-row justify-around gap-10 mt-10 px-4 items-center">
+        <img src={photo9} alt="Why Compass" className="w-[350px] md:w-[500px] rounded-lg shadow-lg" />
+        <div className="space-y-6 text-justify">
+          <div>
+            <h2 className="text-2xl md:text-3xl text-blue-700 font-serif flex items-center gap-3">
+              <img src={photo22} alt="icon" className="w-6 h-6" />
+              Our Service
+            </h2>
+            <p className="text-sm md:text-lg font-semibold px-2 md:px-8">
+              At Compass, we don’t just book trips — we craft unforgettable journeys.
+            </p>
           </div>
-        <div class=' flex  flex-col md:flex-row  justify-around gap-8 mt-10'>
-          
-          <img src={photo9} alt='photo9' class='md:w-[500px] w-[350px] md:mx-0 mx-3 h-auto    '/>
-          <div class=' text-justify space-y-6  '> 
-            <h1 class='md:text-3xl text-2xl font-serif flex items-center gap-2 text-blue-700'><span class='mx-5 w-8 h-8 '><img className='w-6 h-6' alt='photo22' src={photo22}/> </span> our service</h1>
-            <p class='md:mx-20 md:text-justif md:text-lg text-sm mx-20 font-bold'>At Compass, we don’t just book trips - we craft unforgettable journeys.</p>
-            <h1 class='md:text-3xl text-2xl  gap-2 md:mt-10 font-serif flex items-center text-blue-700'> <span class='mx-5' ><img src={photo23} alt='photo23' /> </span> Flight & Travel Bookings</h1>
-            <p class='md:mx-20 font-bold md:text-lg md:text-justify mx-20 text-sm '> We handle all your travel arrangements — flights, trains, cruises, and more.</p>
-            <h1 class='md:text-3xl   items-center  text-2xl md:mt-10 gap-2 font-serif flex text-blue-700'> <span class='mx-5'><img src={photo24} alt='photo24'/> </span> Group Tours</h1>
-            <p class='md:text-justify md:text-lg md:mx-20 text-sm mx-20 font-bold'>Whether it's a destination wedding, corporate retreat, or school trip</p>
-            <h1 class='md:text-3xl mt-10 gap-2 text-2xl item-center font-serif flex text-blue-700'> <span class='mx-5'><img src={photo25} alt='photo25'/> </span> 24/7 Travel support</h1>
-             <p class='md:text-justify md:mx-20 md:text-lg text-sm mx-20 font-bold'> Round-the-clock customer service to assist you before, during, and after your trip.</p>
+
+          <div>
+            <h2 className="text-2xl md:text-3xl text-blue-700 font-serif flex items-center gap-3">
+              <img src={photo23} alt="icon" className="w-6 h-6" />
+              Flight & Travel Bookings
+            </h2>
+            <p className="text-sm md:text-lg font-semibold px-2 md:px-8">
+              We handle all your travel arrangements — flights, trains, cruises, and more.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl md:text-3xl text-blue-700 font-serif flex items-center gap-3">
+              <img src={photo24} alt="icon" className="w-6 h-6" />
+              Group Tours
+            </h2>
+            <p className="text-sm md:text-lg font-semibold px-2 md:px-8">
+              Whether it's a destination wedding, corporate retreat, or school trip.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl md:text-3xl text-blue-700 font-serif flex items-center gap-3">
+              <img src={photo25} alt="icon" className="w-6 h-6" />
+              24/7 Travel Support
+            </h2>
+            <p className="text-sm md:text-lg font-semibold px-2 md:px-8">
+              Round-the-clock customer service to assist you before, during, and after your trip.
+            </p>
           </div>
         </div>
+      </div>
       
           <div class='px-5 mt-32'>
              <h1 class='font-bold text-3xl text-blue-400  mb-10 text-center'>TESTIMONIALS</h1>
@@ -77,24 +107,20 @@ const About = () => {
     </div>
 
    
-      <div class=' flex items-center  gap-8 flex-col-reverse md:flex-row justify-around mt-32' >
-        
-        <p class='text-justify max-w-xl md:line-clamp-none w-[350px]  md:w-[550px]  line-clamp-6 text-xl tracking-widest font-serif'>At Compass, we believe that true travel is found in the finer details—the charm of your stay, the rhythm of your journey, and the people who shape your experience. With deep local expertise and a global network, we aim to craft travel moments that feel effortless, immersive, and truly exceptional.
-Every itinerary is thoughtfully designed to reveal the soul of each destination—from hidden treasures and cultural insights to smooth transitions and personalized touches. We don’t just plan trips—we create journeys that stay with you long after you return. </p>
-      <img class='md:w-[700px] w-[350px] md:h-80' alt='photo10' src={photo10}/>
+      <div className="flex flex-col-reverse md:flex-row justify-around items-center mt-32 px-4 gap-8">
+        <p className="text-justify w-[350px] md:w-[550px] text-xl font-serif tracking-wider">
+          At Compass, we believe that true travel is found in the finer details—the charm of your stay, the rhythm of your journey, and the people who shape your experience. With deep local expertise and a global network, we aim to craft travel moments that feel effortless, immersive, and truly exceptional.
+        </p>
+        <img src={photo10} alt="About Philosophy" className="w-[350px] md:w-[700px] md:h-80 object-cover rounded-lg shadow-lg" />
       </div>
-      <div></div>
-?      <div class='flex mt-10 flex-col md:flex-row items-center gap-8 justify-around'>
-        
-         <img class='md:w-[700px] w-[350px]  md:h-80' alt='photo11' src={photo11}/>
-        
-        <p class='text-justify md:line-clamp-none  line-clamp-6  md:w-[550px] w-[350px] max-w-xl text-xl tracking-widest font-serif'>At Compass, we are dedicated to crafting immersive, meaningful travel experiences through thoughtfully curated small group tours and personalized holidays across the globe. Guided by deep destination knowledge and a commitment to responsible travel, we design every itinerary with care
 
-Our mission goes beyond creating unforgettable journeys—we aim to enrich the lives of our travelers while supporting the people, cultures, and environments of the places we explore. Every trip is a step toward deeper connection and lasting impact.</p>
-       
+
+      <div className="flex flex-col md:flex-row justify-around items-center mt-10 px-4 gap-8">
+        <img src={photo11} alt="Our Mission" className="w-[350px] md:w-[700px] md:h-80 object-cover rounded-lg shadow-lg" />
+        <p className="text-justify w-[350px] md:w-[550px] text-xl font-serif tracking-wider">
+          At Compass, we are dedicated to crafting immersive, meaningful travel experiences through thoughtfully curated small group tours and personalized holidays across the globe. Guided by deep destination knowledge and a commitment to responsible travel, we design every itinerary with care. Our mission goes beyond unforgettable journeys—we aim to enrich the lives of travelers and support the places we explore.
+        </p>
       </div>
-    
-      
     </>
   )
 }

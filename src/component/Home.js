@@ -21,24 +21,25 @@ const Home = () => {
             <div class='md:mx-10   text-center md:text-left space-y-5 '>
         <h1 class='text-3xl sm:text-4xl md:text-5xl     font-bold text-white '>Navigate your dreams explore without limits</h1>
         <p  class='text-base text-justify px-4 md:px-0  text-white font-bold  '>Discover a world of adventure with Compass. We transform travel from a simple trip into an unforgettable experience. Our expertly crafted tours and personalized itineraries unlock the most breathtaking destinations across the globe. </p>
-         <li><Link className='border py-2 px-3 rounded-md bg-blue-700 text-white font-semibold' to='Book'>Book</Link></li>
+<Link to="Book" className="inline-block bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white font-semibold py-2 px-6 rounded-md transition">
+            Book
+          </Link>
         </div>
         </div>
         </div>
       
 
 
-           <div class=' text-center mt-10 md:mt-28' >
-          <h1 class='text-blue-300  font-bold text-xl sm:text-2xl md:text-3xl'>TOP DESTINATION</h1>
+            <div className="text-center mt-20">
+        <h2 className="text-blue-600 text-3xl font-bold">TOP DESTINATIONS</h2>
+        <div className="flex flex-wrap justify-center gap-4 mt-6">
+          {['GOA', 'PARIS', 'THAILAND', 'FRANCE', 'NEW YORK'].map((place) => (
+            <div key={place} className="border-4 border-blue-300 text-black py-2 px-5 rounded-2xl hover:bg-blue-500 hover:text-white  transition cursor-pointer">
+              {place}
+            </div>
+          ))}
         </div>
-        <div class='flex  flex-wrap  gap-3 justify-center px-3 mt-6 '>
-          <h1 class='border-4  py-2 px-4 border-blue-500 rounded-2xl '>GOA</h1>
-          <h1 class='border-4 py-2 px-4 border-blue-500 rounded-2xl '>PARIS</h1>
-          <h1 class='border-4 py-2 px-4 border-blue-500 rounded-2xl '> THAILAND</h1>
-           <h1 class='border-4 py-2 px-4 border-blue-500 rounded-2xl '>FRANCE</h1>
-          <h1 class='border-4 py-2 px-4 border-blue-500 rounded-2xl '>NEW YORK</h1>
-        </div>
-
+      </div>
 
 
           
@@ -106,55 +107,65 @@ const Home = () => {
              </div> */}
 
 
-          <div class='font-bold mt-10 text-blue-400 sm:text-4xl md:text-5xl text-center '> 
-            <h1 class='mx-4  sm:mx-10'>How It Works</h1>
-          </div>
-          <div class='flex flex-col md:flex-row   items-center me-10 md:justify-between'>
-              
-          <div class='md:w-full    me-10 mt-10 text-blue-700 font-bold mx-20 space-y-10'>
-            <div class='border rounded-2xl    bg-yellow-50 py-3  w-72   md:w-96 '> 
-            <h1 class=' text-base sm:text-xl flex px-2 py-1'><span><img alt='i' className='w-10 pr-2 h-8' src={photo26}/></span>Find Your Destination</h1>
-            <p class='text-black font-normal md:text-base text-xs leading-5 items-center px-12 text-justify gap-5 '>Discover the perfect getaway from our wide range of handpicked global destinations, tailored to your travel style.</p>
-            </div>
-            <div class='border rounded-2xl py-5 w-72 bg-yellow-50 md:w-96 '>
-              <h1 class=' text-base  py-1 sm:text-xl flex px-2'> <span><img alt='c' className='w-10 pr-2 h-8' src={photo27}/></span>Book a Ticket</h1>
-              <p class='text-black font-normal leading-5 md:text-base text-xs  px-12 gap-3 items-center text-justify '>Easily reserve flights,stays and experiences through our smooth and reliable booking system.</p>
-            </div>
-            <div class='border rounded-2xl w-72 py-8 bg-yellow-50  md:w-96 '>
-              <h1 class=' text-base  sm:text-xl flex px-2'><span><img alt='o' className='w-10 pr-2 h-8' src={photo28}/></span>Make Payment</h1>
-              <p class='text-black font-normal md:text-base leading-6 text-xs px-12 gap-3 items-center text-justify '> Enjoy secure,hassle-free payment options with instant confirmation.</p>
-              </div>
-              <div class='border rounded-2xl py-3 w-72 bg-yellow-50 md:w-96 '>
-                <h1 class=' text-base py-1 sm:text-xl flex px-2'><sapn><img alt='n' className='w-10 pr-2 h-8' src={photo29}/> </sapn>Explore Destination</h1>
-                <p class='text-black leading-5 font-normal px-12 md:text-base text-xs gap-3 items-center text-justify '> Dive into your journey with expert tips,local insights,and all the tools you need for a memorable adventure.</p>
-              </div>
-              
-             
-              
-              </div>
-              <div className='mt-10   px-28'>
-               <img class='w-[400px]  h-[600px]' alt='photo20'  src={photo30}/>
-               </div>
+          <div className="text-center mt-20">
+        <h2 className="text-blue-700 font-bold text-3xl md:text-5xl">How It Works</h2>
+      </div>
 
-            
-          </div>
-          </div>
-      
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 mt-10">
+        
+        <div className="flex flex-col space-y-8 md:space-y-10 text-blue-900 font-semibold max-w-md w-full">
           
+          <div className="bg-yellow-100 p-5 rounded-2xl shadow-md">
+            <h3 className="flex items-center text-lg sm:text-xl mb-2">
+              <img src={photo26} alt="Icon" className="w-8 h-8 mr-3" />
+              Find Your Destination
+            </h3>
+            <p className="text-black text-sm sm:text-base text-justify">
+              Discover the perfect getaway from our wide range of handpicked global destinations, tailored to your travel style.
+            </p>
+          </div>
 
+          
+          <div className="bg-yellow-100 p-5 rounded-2xl shadow-md">
+            <h3 className="flex items-center text-lg sm:text-xl mb-2">
+              <img src={photo27} alt="Icon" className="w-8 h-8 mr-3" />
+              Book a Ticket
+            </h3>
+            <p className="text-black text-sm sm:text-base text-justify">
+              Easily reserve flights, stays, and experiences through our smooth and reliable booking system.
+            </p>
+          </div>
 
-     
+          
+          <div className="bg-yellow-100 p-5 rounded-2xl shadow-md">
+            <h3 className="flex items-center text-lg sm:text-xl mb-2">
+              <img src={photo28} alt="Icon" className="w-8 h-8 mr-3" />
+              Make Payment
+            </h3>
+            <p className="text-black text-sm sm:text-base text-justify">
+              Enjoy secure, hassle-free payment options with instant confirmation.
+            </p>
+          </div>
 
+    
+          <div className="bg-yellow-100 p-5 rounded-2xl shadow-md">
+            <h3 className="flex items-center text-lg sm:text-xl mb-2">
+              <img src={photo29} alt="Icon" className="w-8 h-8 mr-3" />
+              Explore Destination
+            </h3>
+            <p className="text-black text-sm sm:text-base text-justify">
+              Dive into your journey with expert tips, local insights, and all the tools you need for a memorable adventure.
+            </p>
+          </div>
+        </div>
 
+    
+        <div className="mt-10 md:mt-0 md:ml-10">
+          <img src={photo30} alt="Illustration" className="w-[300px] md:w-[400px] h-[500px] md:h-[600px] object-cover rounded-2xl shadow-lg" />
+        </div>
+      </div>
+    </div>
+  );
+};
 
-
-
-
-
-
-
-
-  )
-}
-
-export default Home
+export default Home;

@@ -16,8 +16,12 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Logging in with:', formData);
-    // Add login logic here
+    try {
+      
+    } catch (error) {
+      
+    }
+    
   };
 
   return (
@@ -53,7 +57,7 @@ const Login = () => {
           </div>
           <button
             type="submit"
-            className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition"
+            className="w-full py-2 px-4 bg-blue-500 text-white font-semibold rounded-md hover:bg-blue-00 transition"
           >
             Login
           </button>

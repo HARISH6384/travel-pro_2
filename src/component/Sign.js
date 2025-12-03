@@ -7,15 +7,36 @@ const Sign = () => {
     email: '',
     password: '',
   });
+  const[sign,setSign]=useState([])
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Add signup logic here (e.g. API call)
+   try {
+      
+       const response = await fetch('http://localhost:8000/api/travel',{
+        method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(formData)
+       })
+   
+    if(response.ok){
+        const newsign = {formData}  
+        setSign([...sign,newsign])
+        setFormData({name:'',email:'',password:''})
+     }else{
+      console.log('mistake in sign ')
+     }
+    
+   } catch (error) {
+    console.log(error)
+    
+   }
+   alert('singup success',formData)
+          
+  
+
   };
 
   return (
